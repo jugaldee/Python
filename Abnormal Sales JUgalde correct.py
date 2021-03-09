@@ -10,7 +10,7 @@ import pandas as pd
 import statsmodels.formula.api as sm
 import numpy as np
 
-financials = pd.read_csv("/Users/Juli/Documents/UCSD Classes/International Business/MGT 153/Pandas/Financials.csv")
+financials = pd.read_csv("/Users/Juli/Documents/UCSD Classes/International Business/MGT 153/Pandas and StatsModels/Financials.csv")
 print(financials.head(20))
 
 pd.set_option('display.max_columns', 500)
